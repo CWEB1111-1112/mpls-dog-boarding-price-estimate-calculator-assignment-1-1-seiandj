@@ -35,7 +35,6 @@ namespace assignment_one{
                 Console.WriteLine("Invalid Addon Code");
             };
             Console.WriteLine("Estimate for {1} under {0} weighing at {2}lbs for {3} day(s), using Addon Code {4} will cost ${5}", one.dogOwner, one.dogName, one.dogWeight, one.stayDuration, one.addOnCode, one.totalAmount);
-            //estimate.ToString();
             estimate.Farewell();
         }
             
@@ -55,8 +54,5 @@ namespace assignment_one{
         public static void Farewell(){
             Console.WriteLine("\nThank you for using the MPLS Dog Boarding Price Estimate Calculator\n");
         }
-        /**public override String ToString(){
-            return String.Format("Estimate for {1} under {0} weighing at {2} for {3} day(s), using Addon Code {4} will cost $ {5}", this.dogOwner, this.dogName, this.dogWeight, this.stayDuration, this.addOnCode, this.totalAmount);
-        }**/
     }
 }
